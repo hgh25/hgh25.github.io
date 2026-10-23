@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy - Discord Finance Task Bot</title>
+<style>
+  body { margin: 0; padding: 24px 16px; font-family: system-ui, -apple-system, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif; line-height: 1.7; color: #222; background: #fff; }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 28px 0 8px; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  .en { color: #555; }
+  code { word-break: break-all; background: #f3f3f3; padding: 0 4px; border-radius: 3px; }
+  a { color: #0b57d0; }
+  nav { margin-top: 32px; padding-top: 12px; border-top: 1px solid #ddd; font-size: 0.95rem; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #161616; }
+    .en { color: #aaa; }
+    h2, nav { border-color: #444; }
+    code { background: #2a2a2a; }
+    a { color: #8ab4f8; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>プライバシーポリシー / Privacy Policy</h1>
+  <p>Discord Finance Task Bot（以下「本アプリ」）は、開発者本人だけが使う個人用アプリです。本ポリシーは、本アプリが扱う Google ユーザーデータについて定めます。</p>
+  <p class="en">Discord Finance Task Bot (the "App") is a personal app used only by its developer. This policy describes how the App handles Google user data.</p>
+
+  <h2>1. 取得するデータとスコープ / Data accessed and scopes</h2>
+  <p>本アプリは Google Drive API を次のスコープで使います。</p>
+  <p class="en">The App uses the Google Drive API with the following scope.</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/drive</code></li>
+  </ul>
+  <p>このスコープで扱うのは、開発者本人の Google ドライブにある指定フォルダの情報（存在の確認）と、本アプリがそのフォルダに作成するファイル（レシート画像）です。それ以外のファイルの内容は読み取りません。</p>
+  <p class="en">Under this scope, the App accesses only the metadata of one designated folder in the developer's Google Drive (to confirm it exists) and the files the App creates in that folder (receipt images). It does not read the contents of any other files.</p>
+
+  <h2>2. データの用途 / How the data is used</h2>
+  <p>取得したデータは、レシート画像を指定フォルダに保存し、その保存先リンクを家計簿の記録に残すためだけに使います。広告、分析、AI モデルの学習には使いません。</p>
+  <p class="en">The data is used only to save receipt images to the designated folder and to keep a link to each saved image in the budget records. It is not used for advertising, analytics, or training AI models.</p>
+
+  <h2>3. 第三者への提供 / Sharing with third parties</h2>
+  <p>Google ユーザーデータを第三者に提供・販売・譲渡することはありません。</p>
+  <p class="en">Google user data is never shared with, sold to, or transferred to any third party.</p>
+
+  <h2>4. 保存場所と保存期間 / Storage and retention</h2>
+  <p>保存したレシート画像は、開発者本人の Google ドライブにだけ置かれます。OAuth のトークンは、本アプリの実行環境に環境変数として保存し、アクセスを取り消すまで保持します。</p>
+  <p class="en">Saved receipt images are stored only in the developer's own Google Drive. The OAuth token is stored as an environment variable in the App's runtime environment and is kept until access is revoked.</p>
+
+  <h2>5. 削除方法 / How to delete data and revoke access</h2>
+  <p>Google アカウントの「サードパーティ製のアプリとサービス」（<a href="https://myaccount.google.com/connections">https://myaccount.google.com/connections</a>）から、本アプリのアクセスをいつでも取り消せます。取り消すとトークンは無効になります。保存済みの画像は Google ドライブから直接削除できます。</p>
+  <p class="en">Access can be revoked at any time from "Third-party apps &amp; services" in the Google Account (<a href="https://myaccount.google.com/connections">https://myaccount.google.com/connections</a>). Revoking access invalidates the token. Saved images can be deleted directly from Google Drive.</p>
+
+  <h2>6. Google API Services User Data Policy</h2>
+  <p>本アプリによる Google API から受け取った情報の使用および他のアプリへの転送は、Limited Use の要件を含む <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a> に従います。</p>
+  <p class="en">The App's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>7. 連絡先 / Contact</h2>
+  <p><a href="mailto:bun.tk521@gmail.com">bun.tk521@gmail.com</a></p>
+
+  <p>最終更新日 / Last updated: 2026-10-24</p>
+
+  <nav>
+    <a href="index.html">ホームページへ戻る / Back to home</a>
+  </nav>
+</main>
+</body>
+</html>
